@@ -5,7 +5,7 @@
 - [Python 3](https://www.python.org/downloads/release/python-370/)
 ```sh
 >> git clone https://github.com/N0rz3/Vinted-webhook.git
->> cd Vinted-webhook\Bot
+>> cd Vinted-webhook\bot
 >> pip install -r requirements.txt
 ```
 
