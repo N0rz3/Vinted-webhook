@@ -5,6 +5,8 @@ import os
 import requests
 import json
 
+WEBHOOK = "YOUR_WEBHOOK"
+
 os.system("title Vinted Scraping $_$ By N0RZE")
 
 banner = """
@@ -90,8 +92,6 @@ while True:
                         price = f"{price}€"
                     else:
                         price = price
-
-                    WEBHOOK = "YOUR_WEBHOOK"
 
                     data = {
                         "embeds": [
