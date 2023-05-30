@@ -35,10 +35,11 @@ allowed_country_code = "fr" # your country
 
 while True:
     try:
+            
+        time.sleep(3)    
         vinted = Vinted()
         items = vinted.items.search(f"https://www.vinted.fr/vetement?order=newest_first&price_to=20&currency=EUR&country_code={allowed_country_code}", 10, 1)
-
-        time.sleep(3)
+       
 
         for item in items:
             if item.brand_title.lower() in allowed_brands:
