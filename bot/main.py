@@ -32,13 +32,14 @@ sent_items = []
 
 allowed_brands = ["nike", "adidas", "ralph lauren", "puma"] # list of brands you want
 allowed_country_code = "fr" # your country
+allowed_price = "20" # your max price
 
 while True:
     try:
             
         time.sleep(3)    
         vinted = Vinted()
-        items = vinted.items.search(f"https://www.vinted.fr/vetement?order=newest_first&price_to=20&currency=EUR&country_code={allowed_country_code}", 10, 1)
+        items = vinted.items.search(f"https://www.vinted.fr/vetement?order=newest_first&price_to={allowed_price}&currency=EUR&country_code={allowed_country_code}", 10, 1)
        
 
         for item in items:
