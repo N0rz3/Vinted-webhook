@@ -1,7 +1,9 @@
-Black = "\033[38;2;0;0;0m"
-Light_Red = "\033[38;2;255;48;48m"
-Reset = '\033[38;2;255;255;255m'
-Light_Green = "\033[38;2;193;255;193m"
-Light_Purple = "\033[38;2;191;62;255m"
-Yellow = "\033[38;2;255;255;0m"
-Blue = "\033[38;2;100;149;237m"
+from colorama import *
+
+Black = Fore.BLACK
+Light_Red = Fore.LIGHTRED_EX
+Reset = Fore.RESET
+Light_Green = Fore.LIGHTGREEN_EX
+Light_Purple = Fore.LIGHTMAGENTA_EX
+Yellow = Fore.YELLOW
+Blue = Fore.BLUE
