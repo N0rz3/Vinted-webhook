@@ -1,9 +1,3 @@
-from colorama import *
-
-Black = Fore.BLACK
-Light_Red = Fore.LIGHTRED_EX
-Reset = Fore.RESET
-Light_Green = Fore.LIGHTGREEN_EX
-Light_Purple = Fore.LIGHTMAGENTA_EX
-Yellow = Fore.YELLOW
-Blue = Fore.BLUE
+RED = "\033[38;2;255;48;48m"
+WHITE = "\033[0m"
+PURPLE = "\033[38;2;171;130;255m"

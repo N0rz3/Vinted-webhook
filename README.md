@@ -3,10 +3,10 @@
 ## **⚙️ Requirements / Launch**
 
 - [Python 3](https://www.python.org/downloads/release/python-370/)
-```sh
->> git clone https://github.com/N0rz3/Vinted-webhook.git
->> cd Vinted-webhook\bot
->> pip install -r requirements.txt
+```
+$ git clone https://github.com/N0rz3/Vinted-webhook.git
+$ cd Vinted-webhook\bot
+$ pip install -r requirements.txt
 ```
 
 
@@ -16,7 +16,7 @@ python main.py
 ```
 
 # 📷 **Result**
-![result](https://github.com/N0rz3/Vinted-webhook/assets/123885505/8d511ef3-12a9-4494-8cb3-1e9c9a3f1cbf)
+![result](assets/exemple.png)
 
 
 
@@ -26,7 +26,3 @@ python main.py
 
 
 Do you like what I offer as content ? Subscribe to my GitHub account for more tools and programs ! 😉
-
-## **💳 Credits**
-
-- 👨‍💻 Source code : me 🤗
